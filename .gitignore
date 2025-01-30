@@ -1,0 +1,20 @@
+
+# React app
+/app/node_modules/
+/app/.pnp
+/app/.pnp.js
+
+# Testing
+/app/coverage
+
+# Production
+/app/build
+
+# Misc
+/app/.env
+/app/.DS_Store
+/app/.eslintcache
+/app/npm-debug.log*
+/app/yarn-debug.log*
+/app/yarn-error.log*
+/app/yarn.lock
