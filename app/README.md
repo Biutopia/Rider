@@ -1,62 +1,36 @@
-# My React App
-
-This is a React application built with TypeScript, utilizing Jotai for state management and styled-components for styling.
-
-## Features
-
-- Functional components using React
-- State management with Jotai
-- Styled-components for styling
-- TypeScript for type safety
+This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
 
 ## Getting Started
 
-To get a local copy up and running, follow these steps:
+First, run the development server:
 
-1. Clone the repository
-   ```bash
-   git clone https://github.com/yourusername/my-react-app.git
-   ```
+```bash
+npm run dev
+# or
+yarn dev
+# or
+pnpm dev
+# or
+bun dev
+```
 
-2. Navigate to the project directory
-   ```bash
-   cd my-react-app
-   ```
+Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
-3. Install the dependencies
-   ```bash
-   npm install
-   ```
+You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
 
-4. Start the development server
-   ```bash
-   npm start
-   ```
+This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
 
-## Folder Structure
+## Learn More
 
-- `src/`: Contains the source code for the application
-  - `components/`: Contains React components
-  - `state/`: Contains state management files using Jotai
-  - `styles/`: Contains global styles using styled-components
-  - `App.tsx`: Main application component
-  - `index.tsx`: Entry point of the application
-- `public/`: Contains public assets
-  - `index.html`: Main HTML file
-  - `favicon.ico`: Application favicon
-- `package.json`: Project dependencies and scripts
-- `tsconfig.json`: TypeScript configuration
-- `tsconfig.paths.json`: TypeScript path mappings
-- `README.md`: Project documentation
+To learn more about Next.js, take a look at the following resources:
 
-## Usage
+- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
+- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
 
-You can create and manage your application state using Jotai atoms. Use styled-components to style your components with ease.
+You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
 
-## Contributing
+## Deploy on Vercel
 
-Contributions are welcome! Please feel free to submit a pull request or open an issue.
+The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
 
-## License
-
-This project is licensed under the MIT License.
+Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
